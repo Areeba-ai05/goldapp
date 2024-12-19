@@ -10,6 +10,6 @@ class BlackTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(text,
-      style: TextStyle(color: Colors.black,fontSize: 30),);
+      style: TextStyle(color: Colors.black,fontSize: 20),);
   }
 }
