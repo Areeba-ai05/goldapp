@@ -32,7 +32,7 @@ class _GoldHomeState extends State<GoldHome> {
   Widget build(BuildContext context) {
     return Scaffold(
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.refresh_outlined),
+          child: Icon(Icons.refresh_outlined, color: Colors.white,),
             backgroundColor:Colors.black,onPressed: () {
             setState(() {
 
